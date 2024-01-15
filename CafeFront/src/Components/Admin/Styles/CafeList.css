@@ -1,0 +1,22 @@
+#container{
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(225, 115, 133);
+    height: 70px;
+   border-radius: 20px;
+   color:white;
+}
+.list{
+    width: 100%;
+}
+
+h6{
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+tr{
+    background-color: palevioletred!important;
+}
+

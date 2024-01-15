@@ -1,0 +1,29 @@
+
+/* Add your global styles here if needed */
+
+.container {
+  padding: 20px;
+}
+
+.list {
+  text-align: center;
+}
+
+#container {
+  background-color: #325f53;
+  color: #fff;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+#tbl_head {
+  background-color: #c4984b;
+  
+}
+
+/* Add more specific styles for smaller screens if needed */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+}

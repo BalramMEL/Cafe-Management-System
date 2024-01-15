@@ -1,0 +1,94 @@
+/* HomePage.css */
+
+/* General styles */
+.homePageContainer {
+  overflow: hidden; /* Clear floats */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Left content */
+.leftContent {
+  width: 100%;
+  max-width: 100%;
+  padding: 20px;
+  
+  text-align: center;
+}
+
+/* Right content */
+.rightContent {
+  width: 100%;
+  max-width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.enlargedBlueText {
+  font-size: 32px; /* Adjust font size */
+  color: brown;
+}
+
+.simple {
+  font-size: 18px; /* Adjust font size */
+  color: rgb(77, 77, 138);
+}
+
+
+.image {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Footer */
+.footer {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.imgHome{
+  height: 700px;
+}
+
+/* Media queries for responsiveness */
+@media (min-width: 768px) {
+  .leftContent {
+    width: 50%;
+    max-width: 50%;
+  }
+  
+  .rightContent {
+    width: 50%;
+    max-width: 50%;
+  }
+
+  .enlargedBlueText {
+    font-size: 40px; /* Adjust font size */
+  }
+
+  .simple {
+    font-size: 20px; /* Adjust font size */
+  }
+}
+
+@media (min-width: 992px) {
+  .leftContent {
+    width: 30%;
+    max-width: 30%;
+  }
+  
+  .rightContent {
+    width: 70%;
+    max-width: 70%;
+  }
+
+  .enlargedBlueText {
+    font-size: 50px; /* Adjust font size */
+  }
+
+  .simple {
+    font-size: 25px; /* Adjust font size */
+  }
+}

@@ -1,0 +1,59 @@
+/* HomeNavbar.css */
+.custom-navbar {
+  background-color: #325f53;
+  padding: 15px;
+}
+
+.custom-navbar a {
+  color: #ffb468;
+}
+
+.custom-navbar a:hover {
+  color: #efdfd1;
+}
+
+.custom-navbar .navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  color: #edd393;
+  font-family: "Segoe Script";
+}
+
+.custom-navbar .logo-img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  
+}
+
+.custom-navbar .navbar-toggler-icon {
+  background-color: #ffb468;
+}
+
+.custom-navbar .navbar-toggler {
+  border: none;
+}
+
+.custom-navbar .navbar-nav .nav-link {
+  margin-right: 15px;
+  color: #edd393;
+}
+
+.custom-navbar .navbar-nav .nav-link:hover {
+  color: #fafaf8;
+}
+
+.custom-navbar .navbar-nav .nav-item.active .nav-link {
+  color: #e5e907;
+}
+
+.custom-navbar .nav-dropdown-item {
+  color: #000;
+}
+
+.custom-navbar .nav-dropdown-item:hover {
+  background-color: #ddd;
+  color: #1375b6;
+}

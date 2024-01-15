@@ -1,0 +1,47 @@
+.item-card {
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.item-card:hover {
+    transform: scale(1.05);
+}
+
+.item-card img {
+    cursor: pointer;
+    height: 200px;
+}
+
+.item-prices {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+/* Example responsive styles for the container */
+/* Replace with your actual class names and adjust styles as needed */
+
+.items-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.items-card {
+  width: calc(33.33% - 20px); /* Adjust the width of each card */
+  margin-bottom: 20px;
+  /* Add other styles as needed */
+}
+
+@media (max-width: 768px) {
+  .items-card {
+    width: calc(50% - 20px); /* Adjust width for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .items-card {
+    width: calc(100% - 20px); /* Adjust width for mobile devices */
+  }
+}

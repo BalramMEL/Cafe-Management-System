@@ -1,0 +1,78 @@
+/* App.css */
+/* .App {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+   */
+  .contact-us-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+
+
+  }
+  
+  .team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  
+  .member-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    max-width: 300px;
+    text-align: left;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .member-card h2 {
+    margin-bottom: 10px;
+  }
+  
+  .member-card p {
+    margin-bottom: 5px;
+  }
+  .member-card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  
+  .member-card a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .member-card a:hover {
+    text-decoration: underline;
+  }
+  .member-cards-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .member-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: calc(50% - 1px); /* Adjust width based on the number of cards per row */
+  }
+  
+  @media (max-width: 768px) {
+    .member-cards-row {
+      flex-direction: column;
+    }
+  }
+  
+  

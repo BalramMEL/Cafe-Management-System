@@ -1,0 +1,78 @@
+/* Add your global styles here if needed */
+
+.container {
+    padding: 50px;
+    margin-top: 100px;
+    justify-content: center;
+    
+  }
+  
+
+  .cards {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fff;
+    
+  }
+  
+  .form-label {
+    font-weight: bold;
+    
+   
+  }
+  
+  
+  .form-control {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+  }
+  
+  textarea.form-control {
+    resize: vertical;
+  }
+  
+  /* Style the file input */
+  input[type="file"].form-control {
+    padding: 10px;
+  }
+  
+  button {
+    background-color: #325f53;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 140px;
+    
+  }
+  
+  button:hover {
+    background-color: #437c6d;
+  }
+  
+  /* Add more specific styles for smaller screens if needed */
+  @media (max-width: 768px) {
+    .cards {
+      max-width: 100%;
+    }
+  }
+  
